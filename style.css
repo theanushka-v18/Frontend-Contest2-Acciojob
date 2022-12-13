@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 90vw;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+nav {
+    background: #111111;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-container {
+    width: 95vw;
+    height: 3rem;
+    padding: 0.5rem;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    align-items: center;
+}
+
+.nav-logo p {
+    color: #ffffff;
+}
+
+.nav-links {
+    align-items: center;
+}
+
+.nav-links ul {
+    column-gap: 2rem;
+}
+
+header {
+    position: absolute;
+    top: 8rem;
+}
+
+.header-container {
+    position: relative;
+    left: 4rem;
+    justify-content: space-between;
+    padding: 0.5rem;
+    height: 80vh;
+}
+
+.left {
+    width: 50%;
+    padding: 0.5rem;
+}
+
+.left h1 {
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.left p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.left a {
+    background: #111111;
+    padding: 0.5rem 2rem;
+}
+
+.right img {
+    height: 32rem;
+    width: 25rem;
+}
+
+section {
+    position: absolute;
+    top: 50rem;
+    left: 4rem;
+}
+
+.flex-container {
+    padding: 0.5rem;
+    flex-direction: column;
+}
+
+.flex-container h2 {
+   font-size: 3rem;
+   font-weight: 400;
+   margin-bottom: 2rem;
+}
+
+.img img {
+    width: 375px;
+}
+
+.box {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem 2rem;
+}
